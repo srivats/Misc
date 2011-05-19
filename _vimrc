@@ -40,7 +40,7 @@ set showmatch
 set smartcase
 set foldenable
 set foldmethod=syntax
-set showtabline=2:w
+set showtabline=2
 
 set autoindent
 set shiftwidth=4
