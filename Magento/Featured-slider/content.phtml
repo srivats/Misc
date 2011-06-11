@@ -1,0 +1,51 @@
+<div id="content">
+		<div id="feature_list">
+			<ul id="tabs">
+				<li>
+					<a href="javascript:;">
+						<img src="<?php echo $this->getSkinUrl('images/services.png')?>" />
+						<h3>Services</h3>
+						<span>Lorem ipsum dolor sit amet consect</span>
+					</a>
+				</li>
+				<li>
+					<a href="javascript:;">
+						<img src="<?php echo $this->getSkinUrl('images/programming.png')?>" />
+						<h3>Programming</h3>
+						<span>Lorem ipsum dolor sit amet consect</span>
+					</a>
+				</li>
+				<li>
+					<a href="javascript:;">
+						<img src="<?php echo $this->getSkinUrl('images/applications.png')?>" />
+						<h3>Applications</h3>
+						<span>Lorem ipsum dolor sit amet consect</span>
+					</a>
+				</li>
+			</ul>
+			<ul id="output">
+				<li>
+					<img src="<?php echo $this->getSkinUrl('images/sample1.jpg')?>" />
+					<a href="#">See project details</a>
+				</li>
+				<li>
+					<img src="<?php echo $this->getSkinUrl('images/sample2.jpg')?>" />
+					<a href="#">See project details</a>
+				</li>
+				<li>
+					<img src="<?php echo $this->getSkinUrl('images/sample3.jpg')?>" />
+					<a href="#">See project details</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+<script language="javascript">
+		jQuery(document).ready(function() {
+			jQuery.featureList(
+				jQuery("#tabs li a"),
+				jQuery("#output li"), {
+					start_item	:	1
+				}
+			);
+		});
+</script>
